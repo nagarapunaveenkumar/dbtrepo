@@ -1,0 +1,1 @@
+select e.eid as empid,e.sal,d.eid as deptid from {{ref('test')}} e left join {{ref('dept2')}} d on e.eid=d.eid

@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: eth2
+    database: mydb
+    schema: myschema
+    tables:
+      - name: dept1
+      - name: employee1
+        columns:
+          - name: eid
+            tests:
+              - unique
+              - not_null
+
+models:
+  - name: test
+    columns:
+      - name: eid
+        tests:
+          - unique
+          - not_null
+
+      - name: sal
+        tests:
+          - not_null

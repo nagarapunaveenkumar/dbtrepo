@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: eth2
+    database: mydb  
+    schema: myschema  
+    tables:
+      - name: employee1
+      - name: dept1

@@ -1,0 +1,1 @@
+select sal/0 from {{source('eth2','employee1')}}

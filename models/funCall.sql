@@ -1,0 +1,1 @@
+select {{add2(4,10)}} as res
