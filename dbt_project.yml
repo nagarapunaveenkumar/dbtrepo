@@ -8,7 +8,7 @@ version: '1.0.0'
 # This setting configures which "profile" dbt uses for this project.
 profile: 'eth2'
 
-#variables and values
+#variables and values, doing for dev now
 vars:
   min_salary: 2000
 
